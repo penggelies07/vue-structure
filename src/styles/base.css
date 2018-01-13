@@ -1,0 +1,140 @@
+@charset 'utf-8';
+html,
+body,
+#root {
+  height: 100%;
+}
+html {
+  font-size: 10px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+body,
+div,
+p,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.67);
+  background: #faf8f6;
+  font-size: 14px;
+  font-family: Helvetica Neue, PingFang SC, Microsoft Yahei, '\5FAE\8F6F\96C5\9ED1', STXihei, '\534E\6587\7EC6\9ED1', sans-serif;
+}
+div,
+p {
+  box-sizing: border-box;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+input {
+  outline: none;
+  border: none;
+}
+fieldset,
+img {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var,
+optgroup {
+  font-style: inherit;
+  font-weight: inherit;
+}
+ol,
+ul {
+  list-style: none;
+}
+del,
+ins,
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+q:before,
+q:after {
+  content: '';
+}
+abbr,
+acronym {
+  border: 0;
+}
+legend {
+  /*fieldset的标题，字体颜色为黑色*/
+  color: #000;
+}
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+  /*继承父节点*/
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+input,
+button,
+textarea,
+select {
+  *font-size: 100%;
+}
+em {
+  /*<em> 标签之间的内容就显示成正常字体，!important告诉部分浏览器一些属性的权重比较大，一般用于处理不同浏览器的兼容问题……*/
+  font-style: normal !important;
+}
+a,
+button,
+input,
+textarea {
+  /*去除ios灰色边框*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
